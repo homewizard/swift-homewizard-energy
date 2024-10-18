@@ -5,7 +5,7 @@ Swift library to communicate with HomeWizard Energy devices using their local AP
 This package is aimed at basic control of the device. Initial setup and configuration is assumed
 to be done with the official HomeWizard Energy app.
 
-[![Testing](https://github.com/homewizard/swift-homewizard-energy/actions/workflows/full-test.yml/badge.svg?branch=master)](https://github.com/homewizard/swift-homewizard-energy/actions/workflows/full-test.yml)
+[![Testing](https://github.com/homewizard/swift-homewizard-energy/actions/workflows/full-test.yml/badge.svg?branch=main)](https://github.com/homewizard/swift-homewizard-energy/actions/workflows/full-test.yml)
 [![Swift 5.10](https://img.shields.io/badge/Swift-5.10-orange.svg?style=flat)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-14+-green.svg?style=flat)](http://developer.apple.com)
 [![macOS](https://img.shields.io/badge/macOS-13+-green.svg?style=flat)](http://developer.apple.com)
@@ -247,7 +247,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Release Notes
 
-See [CHANGELOG.md](https://github.com/HomeWizard/swift-homewizard-energy/blob/master/CHANGELOG.md) for a list of changes.
+See [CHANGELOG.md](https://github.com/HomeWizard/swift-homewizard-energy/blob/main/CHANGELOG.md) for a list of changes.
 
 ## License
 
