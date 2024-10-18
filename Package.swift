@@ -7,9 +7,9 @@ let package = Package(
     name: "HWLocalAPI",
     platforms: [
         .macOS(.v13),
-        .iOS(.v13),
-        .watchOS(.v6),
-        .tvOS(.v13)
+        .iOS(.v14),
+        .watchOS(.v7),
+        .tvOS(.v14)
     ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
