@@ -1,9 +1,3 @@
-//
-//  EnergySocketTests.swift
-//  HWLocalAPI
-//
-//  Created by Michiel Horvers on 08/10/2024.
-//
 
 import XCTest
 @testable import HWLocalAPI

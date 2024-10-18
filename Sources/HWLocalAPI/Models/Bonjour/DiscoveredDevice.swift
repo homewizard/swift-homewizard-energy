@@ -1,9 +1,3 @@
-//
-//  DiscoveredDevice.swift
-//  HWLocalAPI
-//
-//  Created by Michiel Horvers on 04/10/2024.
-//
 
 #if !os(Linux)
 

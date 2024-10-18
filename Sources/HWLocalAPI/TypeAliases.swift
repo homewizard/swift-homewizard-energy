@@ -1,9 +1,3 @@
-//
-//  TypeAliases.swift
-//  HWLocalAPI
-//
-//  Created by Michiel Horvers on 11/10/2024.
-//
 
 /// IP Address of a device
 public typealias IPAddress = String

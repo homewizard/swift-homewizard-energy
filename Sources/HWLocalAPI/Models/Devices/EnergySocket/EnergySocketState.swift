@@ -1,9 +1,3 @@
-//
-//  EnergySocketState.swift
-//  HWLocalAPI
-//
-//  Created by Michiel Horvers on 08/10/2024.
-//
 
 import Foundation
 

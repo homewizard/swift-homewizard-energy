@@ -1,9 +1,3 @@
-//
-//  DeviceTests.swift
-//  HWLocalAPI
-//
-//  Created by Michiel Horvers on 09/10/2024.
-//
 
 import XCTest
 @testable import HWLocalAPI

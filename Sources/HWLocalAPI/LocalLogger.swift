@@ -1,9 +1,3 @@
-//
-//  LocalLogger.swift
-//  HWLocalAPI
-//
-//  Created by Michiel Horvers on 17/10/2024.
-//
 
 #if !os(Linux)
 

@@ -1,9 +1,3 @@
-//
-//  DiscoveredRecord.swift
-//  HWLocalAPI
-//
-//  Created by Michiel Horvers on 09/10/2024.
-//
 
 #if !os(Linux)
 

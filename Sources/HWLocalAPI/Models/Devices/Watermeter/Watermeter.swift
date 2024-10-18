@@ -1,9 +1,3 @@
-//
-//  Watermeter.swift
-//  HWLocalAPI
-//
-//  Created by Michiel Horvers on 04/10/2024.
-//
 
 import Foundation
 

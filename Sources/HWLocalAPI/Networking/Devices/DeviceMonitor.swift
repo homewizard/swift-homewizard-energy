@@ -1,9 +1,3 @@
-//
-//  DeviceMonitor.swift
-//  HWLocalAPI
-//
-//  Created by Michiel Horvers on 10/10/2024.
-//
 
 import Foundation
 
