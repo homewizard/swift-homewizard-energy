@@ -44,26 +44,26 @@ public struct P1MeterData: Codable, Sendable, DeviceData {
     // MARK: Energy Totals
 
     /// The energy usage meter reading for all tariffs in kWh
-    public let totalPowerImport: Double?
+    public let totalEnergyImport: Double?
     /// The energy usage meter reading for tariff 1 in kWh
-    public let totalPowerImportT1: Double?
+    public let totalEnergyImportT1: Double?
     /// The energy usage meter reading for tariff 2 in kWh
-    public let totalPowerImportT2: Double?
+    public let totalEnergyImportT2: Double?
     /// The energy usage meter reading for tariff 3 in kWh
-    public let totalPowerImportT3: Double?
+    public let totalEnergyImportT3: Double?
     /// The energy usage meter reading for tariff 4 in kWh
-    public let totalPowerImportT4: Double?
+    public let totalEnergyImportT4: Double?
 
     /// The energy feed-in meter reading for all tariffs in kWh
-    public let totalPowerExport: Double?
+    public let totalEnergyExport: Double?
     /// The energy feed-in meter reading for tariff 1 in kWh
-    public let totalPowerExportT1: Double?
+    public let totalEnergyExportT1: Double?
     /// The energy feed-in meter reading for tariff 2 in kWh
-    public let totalPowerExportT2: Double?
+    public let totalEnergyExportT2: Double?
     /// The energy feed-in meter reading for tariff 3 in kWh
-    public let totalPowerExportT3: Double?
+    public let totalEnergyExportT3: Double?
     /// The energy feed-in meter reading for tariff 4 in kWh
-    public let totalPowerExportT4: Double?
+    public let totalEnergyExportT4: Double?
 
     // MARK: Active Measurements
 
@@ -165,16 +165,16 @@ public struct P1MeterData: Codable, Sendable, DeviceData {
         case meterModel = "meter_model"
         case wifiSSID = "wifi_ssid"
         case wifiStrength = "wifi_strength"
-        case totalPowerImport = "total_power_import_kwh"
-        case totalPowerImportT1 = "total_power_import_t1_kwh"
-        case totalPowerImportT2 = "total_power_import_t2_kwh"
-        case totalPowerImportT3 = "total_power_import_t3_kwh"
-        case totalPowerImportT4 = "total_power_import_t4_kwh"
-        case totalPowerExport = "total_power_export_kwh"
-        case totalPowerExportT1 = "total_power_export_t1_kwh"
-        case totalPowerExportT2 = "total_power_export_t2_kwh"
-        case totalPowerExportT3 = "total_power_export_t3_kwh"
-        case totalPowerExportT4 = "total_power_export_t4_kwh"
+        case totalEnergyImport = "total_power_import_kwh"
+        case totalEnergyImportT1 = "total_power_import_t1_kwh"
+        case totalEnergyImportT2 = "total_power_import_t2_kwh"
+        case totalEnergyImportT3 = "total_power_import_t3_kwh"
+        case totalEnergyImportT4 = "total_power_import_t4_kwh"
+        case totalEnergyExport = "total_power_export_kwh"
+        case totalEnergyExportT1 = "total_power_export_t1_kwh"
+        case totalEnergyExportT2 = "total_power_export_t2_kwh"
+        case totalEnergyExportT3 = "total_power_export_t3_kwh"
+        case totalEnergyExportT4 = "total_power_export_t4_kwh"
         case activePower = "active_power_w"
         case activePowerL1 = "active_power_l1_w"
         case activePowerL2 = "active_power_l2_w"

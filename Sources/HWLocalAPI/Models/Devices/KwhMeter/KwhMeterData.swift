@@ -20,9 +20,9 @@ public struct KwhMeterData: Codable, Sendable, DeviceData {
     // MARK: Energy Totals
 
     /// The energy usage meter reading for all tariffs in kWh
-    public let totalPowerImport: Double?
+    public let totalEnergyImport: Double?
     /// The energy feed-in meter reading for all tariffs in kWh
-    public let totalPowerExport: Double?
+    public let totalEnergyExport: Double?
 
     // MARK: Active Measurements
 
@@ -246,8 +246,8 @@ public struct KwhMeterData: Codable, Sendable, DeviceData {
     private enum CodingKeys: String, CodingKey {
         case wifiSSID = "wifi_ssid"
         case wifiStrength = "wifi_strength"
-        case totalPowerImport = "total_power_import_kwh"
-        case totalPowerExport = "total_power_export_kwh"
+        case totalEnergyImport = "total_power_import_kwh"
+        case totalEnergyExport = "total_power_export_kwh"
         case activePower = "active_power_w"
         case activePowerL1 = "active_power_l1_w"
         case activePowerL2 = "active_power_l2_w"

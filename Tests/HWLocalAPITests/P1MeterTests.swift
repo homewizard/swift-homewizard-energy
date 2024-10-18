@@ -95,12 +95,12 @@ final class P1MeterTests: XCTestCase {
         XCTAssertEqual(data.uniqueId, "4530303330303000000000000000000000")
 
         // Energy Totals assertions
-        XCTAssertEqual(data.totalPowerImport, 581722.707)
-        XCTAssertEqual(data.totalPowerImportT1, 234950.379)
-        XCTAssertEqual(data.totalPowerImportT2, 346772.328)
-        XCTAssertEqual(data.totalPowerExport, 8.883)
-        XCTAssertEqual(data.totalPowerExportT1, 5.975)
-        XCTAssertEqual(data.totalPowerExportT2, 2.908)
+        XCTAssertEqual(data.totalEnergyImport, 581722.707)
+        XCTAssertEqual(data.totalEnergyImportT1, 234950.379)
+        XCTAssertEqual(data.totalEnergyImportT2, 346772.328)
+        XCTAssertEqual(data.totalEnergyExport, 8.883)
+        XCTAssertEqual(data.totalEnergyExportT1, 5.975)
+        XCTAssertEqual(data.totalEnergyExportT2, 2.908)
 
         // Active Measurements assertions
         XCTAssertEqual(data.activePower, 15424.000)

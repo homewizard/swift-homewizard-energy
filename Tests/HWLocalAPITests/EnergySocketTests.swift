@@ -64,8 +64,8 @@ final class EnergySocketTests: XCTestCase {
         XCTAssertEqual(data.wifiSSID, "MyWiFi")
         XCTAssertEqual(data.wifiStrength, 78)
 
-        XCTAssertEqual(data.totalPowerImport, 34.790)
-        XCTAssertEqual(data.totalPowerExport, 1.234)
+        XCTAssertEqual(data.totalEnergyImport, 34.790)
+        XCTAssertEqual(data.totalEnergyExport, 1.234)
 
         XCTAssertEqual(data.activePower, 2.359)
         XCTAssertEqual(data.activeCurrent, 0.026)

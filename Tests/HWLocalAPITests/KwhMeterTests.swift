@@ -81,8 +81,8 @@ final class KwhMeterTests: XCTestCase {
         XCTAssertEqual(data.wifiSSID, "MyWiFi")
         XCTAssertEqual(data.wifiStrength, 48)
 
-        XCTAssertEqual(data.totalPowerImport, 4418.417)
-        XCTAssertEqual(data.totalPowerExport, 1.234)
+        XCTAssertEqual(data.totalEnergyImport, 4418.417)
+        XCTAssertEqual(data.totalEnergyExport, 1.234)
 
         XCTAssertEqual(data.activePower, 3463.347)
         XCTAssertEqual(data.activePowerL1, 3463.347)

@@ -16,9 +16,9 @@ public struct EnergySocketData: Codable, Sendable, DeviceData {
     public let wifiStrength: Int
 
     /// The energy usage meter reading in kWh
-    public let totalPowerImport: Double?
+    public let totalEnergyImport: Double?
     /// The energy feed-in meter reading in kWh
-    public let totalPowerExport: Double?
+    public let totalEnergyExport: Double?
 
     /// The total active usage in watt
     public let activePower: Double?
@@ -57,8 +57,8 @@ public struct EnergySocketData: Codable, Sendable, DeviceData {
     private enum CodingKeys: String, CodingKey {
         case wifiSSID = "wifi_ssid"
         case wifiStrength = "wifi_strength"
-        case totalPowerImport = "total_power_import_kwh"
-        case totalPowerExport = "total_power_export_kwh"
+        case totalEnergyImport = "total_power_import_kwh"
+        case totalEnergyExport = "total_power_export_kwh"
         case activePower = "active_power_w"
         case activeVoltage = "active_voltage_v"
         case activeCurrent = "active_current_a"
