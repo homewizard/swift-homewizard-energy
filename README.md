@@ -179,9 +179,9 @@ final class MyMonitor: Sendable {
            let power = data.activePower {
 
             if power < 0 {
-                print("You main connection is now delivering \(power) watt back into the grid")
+                print("Your main connection is now delivering \(power) watt back into the grid")
             } else {
-                print("You main connection is now using \(power) watt from the grid")
+                print("Your main connection is now using \(power) watt from the grid")
             }
 
         }
@@ -195,6 +195,8 @@ The package is documented using [DocC](https://www.swift.org/documentation/docc/
 
 When added as a dependency to your project, use *Product > Build Documentation* (or ⌃⇧⌘D) once to
 add it to your Developer Documentation.
+
+For more details about the Local API itself, you may take a look at [our API documentation](https://api-documentation.homewizard.com).
 
 ## Installation
 
