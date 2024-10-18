@@ -48,6 +48,6 @@ final class WatermeterTests: XCTestCase {
         XCTAssertEqual(data.wifiStrength, 100)
 
         XCTAssertEqual(data.totalLiter, 335.886)
-        XCTAssertEqual(data.activeLiterPerMinute, 0.1)
+        XCTAssertEqual(data.activeUsage, 0.1)
     }
 }
