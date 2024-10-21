@@ -5,7 +5,6 @@ Swift library to communicate with HomeWizard Energy devices using their local AP
 This package is aimed at basic control of the device. Initial setup and configuration is assumed
 to be done with the official HomeWizard Energy app.
 
-[![Testing](https://github.com/homewizard/swift-homewizard-energy/actions/workflows/full-test.yml/badge.svg?branch=main)](https://github.com/homewizard/swift-homewizard-energy/actions/workflows/full-test.yml)
 [![Swift 5.10](https://img.shields.io/badge/Swift-5.10-orange.svg?style=flat)](https://swift.org)
 [![iOS](https://img.shields.io/badge/iOS-14+-green.svg?style=flat)](http://developer.apple.com)
 [![macOS](https://img.shields.io/badge/macOS-13+-green.svg?style=flat)](http://developer.apple.com)
@@ -14,22 +13,23 @@ to be done with the official HomeWizard Energy app.
 [![Linux](https://img.shields.io/badge/Linux-Supported-green.svg?style=flat)](https://swift.org)
 [![Release](https://img.shields.io/github/v/release/homewizard/swift-homewizard-energy)](https://github.com/homewizard/swift-homewizard-energy/releases)
 
-- [Features](#features)
-- [Usage](#usage)
-  - [Discovery](#discovery)
-    - [Monitor](#monitor)
-    - [Quick Lookup](#quick-lookup)
-  - [Devices](#devices)
-    - [Simple Data and State](#simple-data-and-state)
-    - [Monitoring](#monitoring)
-- [Documentation](#documentation)
-- [Installation](#installation)
-  - [Swift Package Manager](#swift-package-manager-spm)
-    - [Package File](#package-file)
-    - [Xcode](#xcode)
-- [Development & Contribution](#development-and-contribution)
-- [Release Notes](#release-notes)
-- [License](#license)
+- [HomeWizard Energy: `HWLocalAPI`](#homewizard-energy-hwlocalapi)
+  - [Features](#features)
+  - [Usage](#usage)
+    - [Discovery](#discovery)
+      - [Monitor](#monitor)
+      - [Quick Lookup](#quick-lookup)
+    - [Devices](#devices)
+      - [Simple Data and State](#simple-data-and-state)
+      - [Monitoring](#monitoring)
+  - [Documentation](#documentation)
+  - [Installation](#installation)
+    - [Swift Package Manager (SPM)](#swift-package-manager-spm)
+      - [Package File](#package-file)
+      - [Xcode](#xcode)
+  - [Development and contribution](#development-and-contribution)
+  - [Release Notes](#release-notes)
+  - [License](#license)
 
 ## Features
 
